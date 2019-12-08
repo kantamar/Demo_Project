@@ -10,6 +10,9 @@ namespace Demo_Project.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.msg = "Hello";
+            ViewBag.msg = "Hello1";
+
             return View();
         }
 
